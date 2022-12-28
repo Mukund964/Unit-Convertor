@@ -1,0 +1,114 @@
+body {
+    padding-top: 20px;
+    background-color: #E3FDFD;
+  }
+  
+  h1 {
+    color: #021e38;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15%;
+  }
+  .property_text{
+    font-family: sans-serif;
+        font-size: 1.5em;
+        font-weight: bold;
+        font-style: initial;
+        margin-top: 5%;
+  }
+  .converterBody {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .converterBody input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  
+  .converterBody span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  .converterBody span select {
+    background-color: #F8F4EA;
+    color: #161515;
+    font-size: inherit;
+    padding: 10px;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    border-radius: 0px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    
+  }
+  
+  .converterBody span::before,
+  .converterBody span::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .converterBody span::after { /*  Custom dropdown arrow */
+    content: "\25BC";
+    height: 1em;
+    font-size: .625em;
+    line-height: 1;
+    right: 1.5em;
+    top: 50%;
+    margin-top: -.5em;
+    color: #313131;
+  }
+  
+  .converterBody span::before { /*  Custom dropdown arrow cover */
+    width: 2.5em;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0;
+    background-color: #b3afb3;
+  }
+  
+  .LeftConvertor,
+  .RightConvertor {
+    float: left;
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 45%;
+  }
+  
+  .converter-equals {
+    float: left;
+    box-sizing: border-box;
+    width: 10%;
+    color: rgb(43, 41, 41);
+    font-size: 2.4em;
+    line-height: 0;
+    text-align: center;
+  }
+  
+  .LeftConvertor {
+    padding-right: 10px;
+  }
+  
+  .RightConvertor {
+    padding-left: 10px;
+  }
+  
+  
+  
+  
